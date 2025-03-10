@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input and Button */
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input {
+    width: 250px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Country Info Section */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Flag image */
+img {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+/* Error message */
+p.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Loading message */
+p.loading {
+    color: #888;
+}
+
+/* Bordering countries */
+#borderingCountries {
+    margin-top: 20px;
+}
+
+#borderingCountries section {
+    margin-top: 10px;
+}
+
+#borderingCountries img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    input, button {
+        width: 100%;
+    }
+
+    section {
+        width: 90%;
+    }
+}
